@@ -31,9 +31,7 @@ Though the model's scope is focused on prediction, it serves as a valuable tool 
 2. Follow these [steps](https://github.com/SchneiderSix/Capstone-1-Project-Zoomcamp/tree/main/screenshots)
 3. I recommend you to use this example (by the way, you can use any image's url):
    ```
-   {
-  "query": "https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2023-03/image_day/20230327_IFVillanueva.jpg?itok=qqLCJirr"
-  }
+   {"query": "https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2023-03/image_day/20230327_IFVillanueva.jpg?itok=qqLCJirr"}
    ```
 4. Check the biggest value from each class or label.
 
