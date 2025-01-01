@@ -96,6 +96,9 @@ def predict_wildfire(url):
         'wildfire'
     ]
     preds = preds[0].tolist()
+
+    # Remove file
+    os.remove(filename)
     return dict(zip(classes, preds))
 
 
